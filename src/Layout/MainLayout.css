@@ -1,0 +1,3 @@
+.main-layout { min-height: 100dvh; padding: 24px 16px; }
+.main-layout-container { width: 100%; max-width: 1040px; margin-inline: auto; }
+@media (min-width: 900px) { .main-layout { padding: 72px 40px; } }

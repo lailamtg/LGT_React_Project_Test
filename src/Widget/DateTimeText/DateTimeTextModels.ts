@@ -1,0 +1,1 @@
+export interface DateTimeTextProps {value: Date | null; placeholder?: string;}

@@ -1,0 +1,3 @@
+.home-page { overflow: hidden; border-radius: 3px; background: var(--color-paper); color: var(--color-text); border-color: var(--color-border); }
+.home-page-body { display: grid; grid-template-columns: 160px minmax(0, 1fr); min-height: 380px; }
+@media (max-width: 599px) { .home-page-body { grid-template-columns: minmax(0, 1fr); min-height: 320px; } }

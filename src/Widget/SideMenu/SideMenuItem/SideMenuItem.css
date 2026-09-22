@@ -1,0 +1,8 @@
+.menu-item { margin-bottom: 4px; }
+.menu-item-button { padding: 6px 12px; border-radius: 3px; color: var(--color-muted); }
+.menu-item-button:hover { background: var(--color-background); }
+.menu-item-button.Mui-selected { color: var(--color-primary); background: var(--color-selected); }
+.menu-item-button.Mui-selected:hover { background: var(--color-selected-hover); }
+.menu-item-text .MuiTypography-root { font-size: .875rem; }
+.menu-item-button.Mui-selected .MuiTypography-root { font-weight: 500; }
+@media (max-width: 599px) { .menu-item { margin-bottom: 0; } }

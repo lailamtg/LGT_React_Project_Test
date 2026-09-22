@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #915e60;
+    --color-primary-hover: #794b4e;
+    --color-background: #faf8f7;
+    --color-paper: #ffffff;
+    --color-text: #38302f;
+    --color-muted: #776a68;
+    --color-border: #e8dfdc;
+    --color-selected: #f3e7e4;
+    --color-selected-hover: #eddcd7;
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; background: var(--color-background); color: var(--color-text); font-family: var(--font-family); line-height: 1.5; }
+.MuiTypography-root, .MuiButton-root { font-family: var(--font-family); }
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 3px; }

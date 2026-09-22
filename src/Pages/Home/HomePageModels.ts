@@ -1,0 +1,1 @@
+export type ContentId = 'content1' | 'content2';

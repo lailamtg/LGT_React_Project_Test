@@ -1,0 +1,3 @@
+.content { padding: 28px 32px; }
+.content-title { margin: 0 0 28px; font-size: 1.25rem; font-weight: 500; }
+@media (max-width: 599px) { .content { padding: 24px 20px; } }
